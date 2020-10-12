@@ -68,7 +68,11 @@ var app = new Vue({
 
             var mes =  'go' + digit;
             this.message = mes;
-            console.log('syfgsdfsdf00');
+            this.sendMessage();
+        },
+        finishGame() {
+            var mes =  'finish';
+            this.message = mes;
             this.sendMessage();
         },
         changeNick() {

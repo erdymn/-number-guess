@@ -55,6 +55,8 @@ var gameObj = {
     }
     else if (text === 'help')
       result = this.help();
+    else if (text === 'finish')
+      result = this.kill();
     else if (text.match(pattern))
       result = this.makeGuess(text, nick);
     else
