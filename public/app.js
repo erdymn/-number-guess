@@ -1,4 +1,5 @@
 var socket = io();
+
 Vue.use(Toasted);
 
 const TYPING_TIMER_LENGTH = 700;
