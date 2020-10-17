@@ -83,18 +83,19 @@
 
     <nav class="sidenav right" tabindex="4" style="border-left: 1px solid #eaeaea;">
         <br>
-            <button v-on:click="setLevel(1)" style="background-color:#4CAF50;font-size: 16px;">Easy</button>
-            <br>
-            <div>
-          <button v-on:click="setLevel(2)" style="background-color:#008CBA;font-size: 16px;">Medium</button>
-            <br>
-            <div>
-            <button v-on:click="setLevel(3)" style="background-color:#f44336;font-size: 16px;">Hard</button>
-            <br>
-           </div>
-        <button v-on:click="finishGame()" style="background-color: #555555;font-size: 16px;">Finish</button>
-           <br>
-           <div>
+        <div class="btn-group" style="width:100%">
+          <button v-on:click="setLevel(1)" style="background-color:#4CAF50;width:33%">Easy</button>
+          <br>
+          <div>
+        <button v-on:click="setLevel(2)" style="background-color:#008CBA;width:33%;">Medium</button>
+          <br>
+          <div>
+          <button v-on:click="setLevel(3)" style="background-color:#f44336;width:33;">Hard</button>
+          <br>
+         </div>
+      <button v-on:click="finishGame()" style="background-color: #555555;width:33%;">Finish</button>
+         <br>
+         <div>
       <div class="smartphone-menu-trigger"></div>
       <div class="sidebox">
         <ul>
