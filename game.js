@@ -3,12 +3,12 @@ var http = require('http');
 const _ = require('lodash');
 
 var fileName = './leaders.json';
-var help_text = `Near Kill is a number guessing game bot.
-                Near means the amount of correct number.
-                Kill means the amount of right place number.
-                To start a game write 'go<3-9>'.
-                To guess a number write '4208'.
-                The default game is for 4 digits number.`.trim();
+var help_text = `Number Guess bir sayı tahmin oyunu botudur. Bu oyunda amaç seçilen oyun
+                 zorluğuna göre oyun bot'unun tuttuğu sayıları rakibinden önce tahmin etmeye
+                 çalışmaktır. Easy:3 basamaklı Medium:6 basamaklı Hard:9 basamaklı sayıları 
+                 tahmin etmeniz için var olan zorluklardır. Oyun bot'unun verdiği ipucundaki 
+                 near:doğru sayı miktarı anlamına gelir. kill:doğru yer numarası miktarı anlamına 
+                 gelir. İyi eğlenceler :) developed by @erdymn`.trim();
 
 
 function saveToFile(fileName, obj) {
