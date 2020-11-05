@@ -8,7 +8,7 @@ var help_text = `Number Guess bir sayı tahmin oyunu botudur. Bu oyunda amaç se
                  çalışmaktır. Easy:3 basamaklı Medium:6 basamaklı Hard:9 basamaklı sayıları 
                  tahmin etmeniz için var olan zorluklardır. Oyun bot'unun verdiği ipucundaki 
                  near:doğru sayı miktarı anlamına gelir. kill:doğru yer numarası miktarı anlamına 
-                 gelir. İyi eğlenceler :) developed by @erdymn`.trim();
+                 gelir. İyi eğlenceler :) developed by erdymn`.trim();
 
 
 function saveToFile(fileName, obj) {
